@@ -1,9 +1,6 @@
 document.addEventListener("DOMContentLoaded", function(){ window.addEventListener( 'load', function() {
 	UAGBButtonChild.init( '.uagb-block-230b65be' );
 });
-window.addEventListener( 'load', function() {
-	UAGBButtonChild.init( '.uagb-block-aa630a56' );
-});
 var ssLinksParent = document.querySelector( '.uagb-block-2a5a5301' );
 ssLinksParent?.addEventListener( 'keyup', function ( e ) {
 var link = e.target.closest( '.uagb-ss__link' );
