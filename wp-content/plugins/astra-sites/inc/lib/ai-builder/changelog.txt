@@ -1,3 +1,39 @@
+v1.0.39 - 06-June-2024
+- Fix: Fixed an error when using the Spectra One theme and Starter Templates to import websites with ZipAI.
+
+v1.0.38 - 03-June-2024
+- Improvement: Added logging for import failures with a user alert for log details, warning that retries will exhaust AI site attempts.
+
+v1.0.37 - 04-June-2024
+- Improvement : Prefill websites based on the previous site creation.
+
+v1.0.36 - 03-June-2024
+- Fix: Resolved blog posts throwing 404 errors.
+
+v1.0.35 - 29-May-2024
+- Fix: The title for the `Description` step does not change for exceptional cases.
+
+v1.0.34 - 29-May-2024
+- Improvement: Pass `ecommerce` to the features array if ecommerce is enabled for the selected template.
+
+v1.0.33 - 29-May-2024
+- New: Premium template feature implemented.
+
+v1.0.32 - 28-May-2024
+- Fix: Inconsistent font sizes and line height
+
+v1.0.31 - 27-May-2024
+- Improvement: Added compatibility for classic templates sites options.
+
+v1.0.30 - 27-May-2024
+- Improvement: Sending template type parameter to set the flag.
+
+v1.0.29 - 23-May-2024
+- Improvement: Added a pre-installation confirmation modal.
+
+v1.0.27 - 23-May-2024
+- Improvement: Added filter to skip loading AI Builder library.
+
 v1.0.26 - 21-May-2024
 - Fix: Fixed fatal error while activating plugin on multisite.
 

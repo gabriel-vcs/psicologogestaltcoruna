@@ -856,16 +856,6 @@ parameters:
 			path: inc/classes/class-astra-sites.php
 
 		-
-			message: "#^Call to static method instance\\(\\) on an unknown class Elementor\\\\Plugin\\.$#"
-			count: 1
-			path: inc/classes/class-astra-sites.php
-
-		-
-			message: "#^Cannot access offset 'ast\\-sites\\-search…' on object\\.$#"
-			count: 1
-			path: inc/classes/class-astra-sites.php
-
-		-
 			message: "#^Constant ASTRA_PRO_SITES_DIR not found\\.$#"
 			count: 1
 			path: inc/classes/class-astra-sites.php
@@ -1076,16 +1066,6 @@ parameters:
 			path: inc/classes/class-astra-sites.php
 
 		-
-			message: "#^Method Astra_Sites\\:\\:search_push\\(\\) should return array but returns ArrayAccess\\.$#"
-			count: 1
-			path: inc/classes/class-astra-sites.php
-
-		-
-			message: "#^Method Astra_Sites\\:\\:search_push\\(\\) should return array but returns object\\.$#"
-			count: 1
-			path: inc/classes/class-astra-sites.php
-
-		-
 			message: "#^Method Astra_Sites\\:\\:set_api_url\\(\\) has no return type specified\\.$#"
 			count: 1
 			path: inc/classes/class-astra-sites.php
@@ -1146,7 +1126,7 @@ parameters:
 
 		-
 			message: "#^Parameter \\#3 \\$deps of function wp_enqueue_style expects array\\<string\\>, string given\\.$#"
-			count: 5
+			count: 4
 			path: inc/classes/class-astra-sites.php
 
 		-
@@ -1765,11 +1745,6 @@ parameters:
 			path: inc/importers/batch-processing/class-astra-sites-batch-processing.php
 
 		-
-			message: "#^Method Astra_Sites_Batch_Processing\\:\\:get_default_assets\\(\\) return type has no value type specified in iterable type array\\.$#"
-			count: 1
-			path: inc/importers/batch-processing/class-astra-sites-batch-processing.php
-
-		-
 			message: "#^Method Astra_Sites_Batch_Processing\\:\\:get_pages\\(\\) has parameter \\$post_types with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: inc/importers/batch-processing/class-astra-sites-batch-processing.php
@@ -1870,16 +1845,6 @@ parameters:
 			path: inc/importers/class-astra-site-options-import.php
 
 		-
-			message: "#^Method Astra_Site_Options_Import\\:\\:import_options\\(\\) has no return type specified\\.$#"
-			count: 1
-			path: inc/importers/class-astra-site-options-import.php
-
-		-
-			message: "#^Method Astra_Site_Options_Import\\:\\:import_options\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
-			count: 1
-			path: inc/importers/class-astra-site-options-import.php
-
-		-
 			message: "#^Method Astra_Site_Options_Import\\:\\:set_nav_menu_locations\\(\\) has no return type specified\\.$#"
 			count: 1
 			path: inc/importers/class-astra-site-options-import.php
@@ -1896,11 +1861,6 @@ parameters:
 
 		-
 			message: "#^Method Astra_Site_Options_Import\\:\\:set_woocommerce_product_cat\\(\\) has parameter \\$cats with no value type specified in iterable type array\\.$#"
-			count: 1
-			path: inc/importers/class-astra-site-options-import.php
-
-		-
-			message: "#^Method Astra_Site_Options_Import\\:\\:site_options\\(\\) return type has no value type specified in iterable type array\\.$#"
 			count: 1
 			path: inc/importers/class-astra-site-options-import.php
 

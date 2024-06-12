@@ -13,8 +13,8 @@ use STImporter\Resetter\ST_Resetter;
 use STImporter\Importer\ST_Importer;
 use AiBuilder\Inc\Classes\Importer\Ai_Builder_Error_Handler;
 use STImporter\Importer\ST_Importer_File_System;
-use AiBuilder\Inc\Classes\Importer\Ai_Builder_Site_Options_Import;
 use AiBuilder\Inc\Classes\Ai_Builder_Importer_Log;
+use STImporter\Importer\ST_Option_Importer;
 
 /**
  * Trait Instance.
@@ -560,7 +560,7 @@ class Helper {
 			$options_data = astra_get_site_data( 'astra-site-options-data' );
 		}
 
-		$result = ST_Importer::import_options( $options_data, Ai_Builder_Site_Options_Import::site_options() );
+		$result = ST_Importer::import_options( $options_data, ST_Option_Importer::site_options() );
 
 		if ( false === $result['status'] ) {
 			if ( defined( 'WP_CLI' ) ) {
@@ -636,6 +636,7 @@ class Helper {
 		$demo_data = ST_Importer_File_System::get_instance()->get_demo_content();
 		// Set permalink structure to use post name.
 		update_option( 'permalink_structure', '/%postname%/' );
+		update_option( 'astra-site-permalink-update-status', 'no' );
 
 		do_action( 'astra_sites_import_complete', $demo_data );
 
