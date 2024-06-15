@@ -1,0 +1,503 @@
+0000.000 (0) Opened log file at time: Sat, 15 Jun 2024 14:44:14 +0000 on http://192.168.1.136/wp
+0000.004 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.3 WP: 6.5.3 PHP: 8.2.4 (apache2handler, Linux Latitude7480 6.5.0-35-generic #35~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue May  7 09:00:52 UTC 2 x86_64) MySQL: 10.4.28-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.56 (Unix) OpenSSL/1.1.1t PHP/8.2.4 mod_perl/2.0.12 Perl/v5.34.1 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 72.6M | 77M) multisite: N openssl: OpenSSL 1.1.1t  7 Feb 2023 mcrypt: N LANG: en_US.UTF-8 ZipArchive::addFile: Y
+0000.007 (0) Free space on disk containing Updraft's temporary directory: 7928.4 MB
+0000.013 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.020 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.027 (0) Set semaphore last lock (fd) time to 2024-06-15 14:44:14
+0000.029 (0) Semaphore lock (fd) complete
+0000.041 (0) Backup run: resumption=0, nonce=6b0c30ac10d5, file_nonce=6b0c30ac10d5 begun at=1718462654 (0s ago), job type=backup
+0000.047 (0) Scheduling a resumption (1) after 300 seconds (1718462954) in case this run gets aborted
+0000.070 (0) Checking if we have a zip executable available
+0000.073 (0) Testing: /usr/bin/zip
+0000.077 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.080 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.083 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.084 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.086 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.096 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.099 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.105 (0) Working binary zip found: /usr/bin/zip
+0000.109 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.111 (0) Creation of backups of directories: beginning
+0000.118 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.226 (0) Total entities for the zip file: 1945 directories, 8797 files (0 skipped as non-modified), 169.6 MB
+0000.237 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.242 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.247 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.252 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.255 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.259 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.263 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.266 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.269 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.273 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.274 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (21.3 MB, 8797 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0001.026 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: size is now: 4.40 MB
+0001.034 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 1100 files added (on-disk size: 4509.9 KB)
+0001.038 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 1200 files added (on-disk size: 4509.9 KB)
+0001.041 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 1300 files added (on-disk size: 4509.9 KB)
+0001.047 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 1400 files added (on-disk size: 4509.9 KB)
+0001.051 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 1500 files added (on-disk size: 4509.9 KB)
+0001.054 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 1600 files added (on-disk size: 4509.9 KB)
+0001.057 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 1700 files added (on-disk size: 4509.9 KB)
+0001.060 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 1800 files added (on-disk size: 4509.9 KB)
+0001.065 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 1900 files added (on-disk size: 4509.9 KB)
+0001.069 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 2000 files added (on-disk size: 4509.9 KB)
+0001.071 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (16.6 MB, 8797 files batched, 1001 (2002) added so far); re-opening (prior size: 4509.9 KB)
+0001.789 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: size is now: 11.30 MB
+0001.795 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 2100 files added (on-disk size: 11541.2 KB)
+0001.799 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 2200 files added (on-disk size: 11541.2 KB)
+0001.806 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 2300 files added (on-disk size: 11541.2 KB)
+0001.810 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 2400 files added (on-disk size: 11541.2 KB)
+0001.814 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 2500 files added (on-disk size: 11541.2 KB)
+0001.817 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.2 MB, 8797 files batched, 530 (2532) added so far); re-opening (prior size: 11541.2 KB)
+0002.624 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: size is now: 16.80 MB
+0002.632 (0) A useful amount of data was added after this amount of zip processing: 1 s (normalised: 1 s, rate: 26604.6 KB/s)
+0002.636 (0) Performance is good - will increase the amount of data we attempt to batch (time=0.96801805496216, normalised_time=0.96223945728144, max_time=2.6336290836334, data points known=1, old_max_bytes=26214400, new_max_bytes=163458688)
+0002.642 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 2600 files added (on-disk size: 17208.3 KB)
+0002.646 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 2700 files added (on-disk size: 17208.3 KB)
+0002.651 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 2800 files added (on-disk size: 17208.3 KB)
+0002.655 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 2900 files added (on-disk size: 17208.3 KB)
+0002.660 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 3000 files added (on-disk size: 17208.3 KB)
+0002.667 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 3100 files added (on-disk size: 17208.3 KB)
+0002.675 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 3200 files added (on-disk size: 17208.3 KB)
+0002.683 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 3300 files added (on-disk size: 17208.3 KB)
+0002.691 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 3400 files added (on-disk size: 17208.3 KB)
+0002.698 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 3500 files added (on-disk size: 17208.3 KB)
+0002.703 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (16.7 MB, 8797 files batched, 1001 (3533) added so far); re-opening (prior size: 17208.3 KB)
+0003.445 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: size is now: 22.30 MB
+0003.455 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 3600 files added (on-disk size: 22820.3 KB)
+0003.461 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 3700 files added (on-disk size: 22820.3 KB)
+0003.466 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 3800 files added (on-disk size: 22820.3 KB)
+0003.470 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 3900 files added (on-disk size: 22820.3 KB)
+0003.474 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 4000 files added (on-disk size: 22820.3 KB)
+0003.477 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 4100 files added (on-disk size: 22820.3 KB)
+0003.481 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 4200 files added (on-disk size: 22820.3 KB)
+0003.487 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 4300 files added (on-disk size: 22820.3 KB)
+0003.492 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 4400 files added (on-disk size: 22820.3 KB)
+0003.497 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 4500 files added (on-disk size: 22820.3 KB)
+0003.501 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (23.9 MB, 8797 files batched, 1001 (4534) added so far); re-opening (prior size: 22820.3 KB)
+0004.432 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: size is now: 29.30 MB
+0004.439 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 4600 files added (on-disk size: 30017.1 KB)
+0004.442 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 4700 files added (on-disk size: 30017.1 KB)
+0004.446 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 4800 files added (on-disk size: 30017.1 KB)
+0004.449 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 4900 files added (on-disk size: 30017.1 KB)
+0004.453 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 5000 files added (on-disk size: 30017.1 KB)
+0004.456 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 5100 files added (on-disk size: 30017.1 KB)
+0004.460 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 5200 files added (on-disk size: 30017.1 KB)
+0004.463 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 5300 files added (on-disk size: 30017.1 KB)
+0004.466 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 5400 files added (on-disk size: 30017.1 KB)
+0004.470 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 5500 files added (on-disk size: 30017.1 KB)
+0004.472 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (10.2 MB, 8797 files batched, 1001 (5535) added so far); re-opening (prior size: 30017.1 KB)
+0004.963 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 5600 files added (on-disk size: 35139.2 KB)
+0004.966 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 5700 files added (on-disk size: 35139.2 KB)
+0004.972 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 5800 files added (on-disk size: 35139.2 KB)
+0004.980 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 5900 files added (on-disk size: 35139.2 KB)
+0004.990 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 6000 files added (on-disk size: 35139.2 KB)
+0004.997 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 6100 files added (on-disk size: 35139.2 KB)
+0005.004 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 6200 files added (on-disk size: 35139.2 KB)
+0005.012 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 6300 files added (on-disk size: 35139.2 KB)
+0005.017 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 6400 files added (on-disk size: 35139.2 KB)
+0005.022 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 6500 files added (on-disk size: 35139.2 KB)
+0005.025 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (20.8 MB, 8797 files batched, 1001 (6536) added so far); re-opening (prior size: 35139.2 KB)
+0005.737 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: size is now: 41.80 MB
+0005.745 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 6600 files added (on-disk size: 42810.6 KB)
+0005.748 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 6700 files added (on-disk size: 42810.6 KB)
+0005.755 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 6800 files added (on-disk size: 42810.6 KB)
+0005.762 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 6900 files added (on-disk size: 42810.6 KB)
+0005.769 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 7000 files added (on-disk size: 42810.6 KB)
+0005.776 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 7100 files added (on-disk size: 42810.6 KB)
+0005.784 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 7200 files added (on-disk size: 42810.6 KB)
+0005.791 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 7300 files added (on-disk size: 42810.6 KB)
+0005.797 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 7400 files added (on-disk size: 42810.6 KB)
+0005.802 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 7500 files added (on-disk size: 42810.6 KB)
+0005.805 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (25.3 MB, 8797 files batched, 1001 (7537) added so far); re-opening (prior size: 42810.6 KB)
+0006.762 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 7600 files added (on-disk size: 50790.9 KB)
+0006.765 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 7700 files added (on-disk size: 50790.9 KB)
+0006.768 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 7800 files added (on-disk size: 50790.9 KB)
+0006.770 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 7900 files added (on-disk size: 50790.9 KB)
+0006.773 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 8000 files added (on-disk size: 50790.9 KB)
+0006.777 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 8100 files added (on-disk size: 50790.9 KB)
+0006.780 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 8200 files added (on-disk size: 50790.9 KB)
+0006.782 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 8300 files added (on-disk size: 50790.9 KB)
+0006.786 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 8400 files added (on-disk size: 50790.9 KB)
+0006.790 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 8500 files added (on-disk size: 50790.9 KB)
+0006.793 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8.7 MB, 8797 files batched, 1001 (8538) added so far); re-opening (prior size: 50790.9 KB)
+0007.186 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 8600 files added (on-disk size: 53714.9 KB)
+0007.190 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.tmp: 8700 files added (on-disk size: 53714.9 KB)
+0007.383 (0) Creating zip file manifest (backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.list-temp.tmp)
+0007.403 (0) Successfully created zip file manifest (size: 750505)
+0007.849 (0) Created plugins zip (0) - 54076.4 KB in 7.7 s (6998.2 KB/s) (sha1: 8af0501541428d6d18fcb03efac20e268f8f6bb4, sha256: ebd7fe825835a0baf8eafb75f2a4725aa8838e2ba62c2b56c4d714a3a11257d0)
+0007.863 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0007.864 (0) No remote despatch: user chose no remote backup service
+0007.866 (0) Recording as successfully uploaded: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip
+0007.869 (0) Deleting zip manifest (backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip.list.tmp)
+0007.873 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0007.876 (0) Number of backup sets in history: 1; groups (db): 1
+0007.877 (0) Examining (for databases) backup set with group_id=0, nonce=da72e20a46ed, datestamp=1718135667 (Jun 11 2024 19:54:27)
+0007.879 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0007.881 (0) Number of backup sets in history: 1; groups (files): 1
+0007.885 (0) Examining (for files) backup set with nonce=da72e20a46ed, datestamp=1718135667 (Jun 11 2024 19:54:27)
+0007.885 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0007.887 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0007.901 (0) Beginning creation of dump of themes (split every: 400 MB)
+0007.928 (0) Total entities for the zip file: 312 directories, 737 files (0 skipped as non-modified), 18.7 MB
+0007.933 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0007.937 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0007.940 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0007.946 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0007.952 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0007.956 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0007.961 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0008.662 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-themes.zip.tmp: size is now: 5.80 MB
+0008.676 (0) Creating zip file manifest (backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-themes.zip.list-temp.tmp)
+0008.680 (0) Successfully created zip file manifest (size: 64095)
+0008.736 (0) Created themes zip (0) - 5900.2 KB in 0.8 s (7123 KB/s) (sha1: d13a4bf99406c464c80df99f77c40384c6220672, sha256: 6ac01ec308f11c25227e68fa72d48848932d3033a40e08bee8e287120ad6e190)
+0008.745 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0008.747 (0) No remote despatch: user chose no remote backup service
+0008.749 (0) Recording as successfully uploaded: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-themes.zip
+0008.756 (0) Deleting zip manifest (backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-themes.zip.list.tmp)
+0008.761 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0008.766 (0) Number of backup sets in history: 1; groups (db): 1
+0008.769 (0) Examining (for databases) backup set with group_id=0, nonce=da72e20a46ed, datestamp=1718135667 (Jun 11 2024 19:54:27)
+0008.769 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0008.772 (0) Number of backup sets in history: 1; groups (files): 1
+0008.775 (0) Examining (for files) backup set with nonce=da72e20a46ed, datestamp=1718135667 (Jun 11 2024 19:54:27)
+0008.775 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0008.777 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0008.798 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0008.801 (0) Looking for candidates to backup in: /opt/lampp/htdocs/wp/wp-content/uploads
+0008.804 (0) finding files: 2024: adding to list (1)
+0008.807 (0) finding files: astra-sites: adding to list (2)
+0008.808 (0) finding files: elementor: adding to list (3)
+0008.811 (0) finding files: ai-builder: adding to list (4)
+0008.812 (0) finding files: 2023: adding to list (5)
+0008.815 (0) finding files: uag-plugin: adding to list (6)
+0008.816 (0) finding files: 2020: adding to list (7)
+0008.817 (0) finding files: ast-block-templates-json: adding to list (8)
+0008.819 (0) finding files: 2022: adding to list (9)
+0008.821 (0) finding files: 2021: adding to list (10)
+0008.823 (0) finding files: astra-docs: adding to list (11)
+0008.824 (0) finding files: st-importer: adding to list (12)
+0008.826 (0) finding files: wpforms: adding to list (13)
+0008.828 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0008.836 (0) Total entities for the zip file: 33 directories, 484 files (0 skipped as non-modified), 42.9 MB
+0008.840 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0008.842 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0008.845 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0008.848 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0009.322 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-uploads.zip.tmp: size is now: 23.90 MB
+0009.331 (0) Creating zip file manifest (backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-uploads.zip.list-temp.tmp)
+0009.335 (0) Successfully created zip file manifest (size: 31901)
+0009.561 (0) Created uploads zip (0) - 24436.9 KB in 0.7 s (33502.4 KB/s) (sha1: 60e0008559f8342ca5b3285f25a29b48f3fc299b, sha256: 6df3352a9e9ecb6dd41f39e1eced235d3f581c711e44efb3fd708edeff4241d4)
+0009.568 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0009.569 (0) No remote despatch: user chose no remote backup service
+0009.571 (0) Recording as successfully uploaded: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-uploads.zip
+0009.577 (0) Deleting zip manifest (backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-uploads.zip.list.tmp)
+0009.580 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0009.583 (0) Number of backup sets in history: 1; groups (db): 1
+0009.584 (0) Examining (for databases) backup set with group_id=0, nonce=da72e20a46ed, datestamp=1718135667 (Jun 11 2024 19:54:27)
+0009.584 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0009.586 (0) Number of backup sets in history: 1; groups (files): 1
+0009.588 (0) Examining (for files) backup set with nonce=da72e20a46ed, datestamp=1718135667 (Jun 11 2024 19:54:27)
+0009.588 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0009.589 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0009.596 (0) No backup of mu-plugins: excluded by user's options
+0009.599 (0) Beginning backup of other directories found in the content directory (index: 0)
+0009.601 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0009.603 (0) Looking for candidates to backup in: /opt/lampp/htdocs/wp/wp-content
+0009.604 (0) finding files: upgrade: skipping: excluded by options
+0009.606 (0) finding files: index.php: adding to list (1)
+0009.608 (0) finding files: upgrade-temp-backup: adding to list (2)
+0009.609 (0) finding files: plugins: skipping: this is the plugins directory
+0009.611 (0) finding files: themes: skipping: this is the themes directory
+0009.613 (0) finding files: uploads: skipping: this is the uploads directory
+0009.615 (0) finding files: languages: adding to list (3)
+0009.616 (0) finding files: updraft: skipping: this is the updraft directory
+0009.621 (0) Total entities for the zip file: 4 directories, 136 files (0 skipped as non-modified), 5.1 MB
+0009.624 (0) Zip: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0009.857 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-others.zip.tmp: size is now: 1.40 MB
+0009.863 (0) Creating zip file manifest (backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-others.zip.list-temp.tmp)
+0009.865 (0) Successfully created zip file manifest (size: 9094)
+0009.885 (0) Created others zip (0) - 1480.7 KB in 0.3 s (5569.3 KB/s) (sha1: 25ae477ce2f29c66c95aa224c52da4bc9b02da12, sha256: 4067da28b4716942fccca63a355d570f83c62eb60f2233ac5ecab47099790428)
+0009.894 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0009.896 (0) No remote despatch: user chose no remote backup service
+0009.898 (0) Recording as successfully uploaded: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-others.zip
+0009.903 (0) Deleting zip manifest (backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-others.zip.list.tmp)
+0009.907 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0009.909 (0) Number of backup sets in history: 1; groups (db): 1
+0009.911 (0) Examining (for databases) backup set with group_id=0, nonce=da72e20a46ed, datestamp=1718135667 (Jun 11 2024 19:54:27)
+0009.911 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0009.912 (0) Number of backup sets in history: 1; groups (files): 1
+0009.914 (0) Examining (for files) backup set with nonce=da72e20a46ed, datestamp=1718135667 (Jun 11 2024 19:54:27)
+0009.914 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0009.916 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0009.927 (0) Saving backup status to database (elements: 8)
+0009.931 (0) Beginning creation of database dump (WordPress DB)
+0009.934 (0) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0009.942 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0009.951 (0) Binary mysqldump: error (code: 1)
+0009.954 (0) Testing potential mysqldump binary: /bin/mysqldump
+0009.963 (0) Binary mysqldump: error (code: 1)
+0009.998 (0) Table wp_options: Total expected rows (via COUNT): 342
+0010.001 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.113 (0) Table wp_options: Rows added in this batch (next record: 51662): 338 (uncompressed bytes in this segment=2782651) in 0.14 seconds
+0010.123 (0) Table wp_options: finishing file(s) (2, 399.3 KB)
+0010.132 (0) Table wp_users: Total expected rows (via COUNT): 1
+0010.136 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.142 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1215) in 0.01 seconds
+0010.152 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0010.167 (0) Table wp_usermeta: Total expected rows (via COUNT): 29
+0010.169 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.177 (0) Table wp_usermeta: Rows added in this batch (next record: 31): 29 (uncompressed bytes in this segment=4757) in 0.02 seconds
+0010.191 (0) Table wp_usermeta: finishing file(s) (2, 1.9 KB)
+0010.205 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 37
+0010.208 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.215 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 1737): 37 (uncompressed bytes in this segment=14214) in 0.02 seconds
+0010.230 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 1.9 KB)
+0010.241 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0010.250 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=626) in 0.01 seconds
+0010.261 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0010.272 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 2
+0010.275 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.282 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=675) in 0.01 seconds
+0010.295 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0010.305 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 111
+0010.308 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.319 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 115): 111 (uncompressed bytes in this segment=10485) in 0.02 seconds
+0010.330 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 1.6 KB)
+0010.345 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0010.353 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=634) in 0.02 seconds
+0010.371 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0010.382 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0010.385 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.394 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1885) in 0.02 seconds
+0010.404 (0) Table wp_comments: finishing file(s) (2, 0.7 KB)
+0010.421 (0) Table wp_e_notes: Total expected rows (via COUNT): 0
+0010.429 (0) Table wp_e_notes: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1885) in 0.02 seconds
+0010.444 (0) Table wp_e_notes: finishing file(s) (2, 0.7 KB)
+0010.457 (0) Table wp_e_notes_users_relations: Total expected rows (via COUNT): 0
+0010.462 (0) Table wp_e_notes_users_relations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=852) in 0.01 seconds
+0010.474 (0) Table wp_e_notes_users_relations: finishing file(s) (2, 0.4 KB)
+0010.488 (0) Table wp_links: Total expected rows (via COUNT): 0
+0010.494 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1027) in 0.01 seconds
+0010.505 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0010.597 (0) Table wp_postmeta: Total expected rows (approximate): 9672
+0012.396 (0) Table wp_postmeta: Rows added in this batch (next record: 18301): 12055 (uncompressed bytes in this segment=93790773) in 1.88 seconds
+0012.408 (0) Table wp_postmeta: finishing file(s) (2, 11259.8 KB)
+0012.427 (0) Table wp_posts: Total expected rows (via COUNT): 1273
+0012.530 (0) Table wp_posts: Rows added in this batch (next record: 3257): 1273 (uncompressed bytes in this segment=9429539) in 0.12 seconds
+0012.539 (0) Table wp_posts: finishing file(s) (2, 245.4 KB)
+0012.545 (0) Table wp_term_relationships: Total expected rows (approximate): 49
+0012.549 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 49 (uncompressed bytes in this segment=1450) in 0.00 seconds
+0012.557 (0) Table wp_term_relationships: finishing file(s) (2, 0.5 KB)
+0012.574 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 12
+0012.578 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0012.585 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 27): 12 (uncompressed bytes in this segment=1288) in 0.02 seconds
+0012.599 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.6 KB)
+0012.616 (0) Table wp_termmeta: Total expected rows (via COUNT): 5
+0012.620 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0012.626 (0) Table wp_termmeta: Rows added in this batch (next record: 20): 5 (uncompressed bytes in this segment=888) in 0.02 seconds
+0012.636 (0) Table wp_termmeta: finishing file(s) (2, 0.5 KB)
+0012.645 (0) Table wp_terms: Total expected rows (via COUNT): 12
+0012.649 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0012.653 (0) Table wp_terms: Rows added in this batch (next record: 27): 12 (uncompressed bytes in this segment=1041) in 0.01 seconds
+0012.664 (0) Table wp_terms: finishing file(s) (2, 0.6 KB)
+0012.676 (0) Table wp_e_events: Total expected rows (via COUNT): 2
+0012.680 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0012.683 (0) Table wp_e_events: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=958) in 0.01 seconds
+0012.695 (0) Table wp_e_events: finishing file(s) (2, 0.5 KB)
+0012.705 (0) Table wp_e_submissions: Total expected rows (via COUNT): 2
+0012.709 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0012.715 (0) Table wp_e_submissions: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=2915) in 0.01 seconds
+0012.726 (0) Table wp_e_submissions: finishing file(s) (2, 1.1 KB)
+0012.737 (0) Table wp_e_submissions_actions_log: Total expected rows (via COUNT): 2
+0012.741 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0012.746 (0) Table wp_e_submissions_actions_log: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1571) in 0.01 seconds
+0012.758 (0) Table wp_e_submissions_actions_log: finishing file(s) (2, 0.6 KB)
+0012.774 (0) Table wp_e_submissions_values: Total expected rows (via COUNT): 10
+0012.778 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0012.783 (0) Table wp_e_submissions_values: Rows added in this batch (next record: 10): 10 (uncompressed bytes in this segment=1052) in 0.02 seconds
+0012.797 (0) Table wp_e_submissions_values: finishing file(s) (2, 0.5 KB)
+0012.807 (0) Table wp_wpforms_logs: Total expected rows (via COUNT): 0
+0012.811 (0) Table wp_wpforms_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=659) in 0.01 seconds
+0012.818 (0) Table wp_wpforms_logs: finishing file(s) (2, 0.4 KB)
+0012.826 (0) Table wp_wpforms_payment_meta: Total expected rows (via COUNT): 0
+0012.830 (0) Table wp_wpforms_payment_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=690) in 0.01 seconds
+0012.840 (0) Table wp_wpforms_payment_meta: finishing file(s) (2, 0.4 KB)
+0012.845 (0) Table wp_wpforms_payments: Total expected rows (via COUNT): 0
+0012.849 (0) Table wp_wpforms_payments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1650) in 0.01 seconds
+0012.855 (0) Table wp_wpforms_payments: finishing file(s) (2, 0.6 KB)
+0012.863 (0) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 1
+0012.865 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0012.868 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=679) in 0.01 seconds
+0012.876 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.4 KB)
+0012.884 (0) Table wp_wpgmza: Total expected rows (via COUNT): 2
+0012.885 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0012.888 (0) Table wp_wpgmza: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1415) in 0.01 seconds
+0012.895 (0) Table wp_wpgmza: finishing file(s) (2, 0.7 KB)
+0012.908 (0) Table wp_wpgmza_admin_notices: Total expected rows (via COUNT): 0
+0012.915 (0) Table wp_wpgmza_admin_notices: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=639) in 0.01 seconds
+0012.930 (0) Table wp_wpgmza_admin_notices: finishing file(s) (2, 0.4 KB)
+0012.944 (0) Table wp_wpgmza_circles: Total expected rows (via COUNT): 0
+0012.948 (0) Table wp_wpgmza_circles: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=985) in 0.01 seconds
+0012.960 (0) Table wp_wpgmza_circles: finishing file(s) (2, 0.4 KB)
+0012.973 (0) Table wp_wpgmza_image_overlays: Total expected rows (via COUNT): 0
+0012.978 (0) Table wp_wpgmza_image_overlays: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=658) in 0.01 seconds
+0013.023 (0) Table wp_wpgmza_image_overlays: finishing file(s) (2, 0.4 KB)
+0013.042 (0) Table wp_wpgmza_maps: Total expected rows (via COUNT): 1
+0013.046 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0013.055 (0) Table wp_wpgmza_maps: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2118) in 0.02 seconds
+0013.066 (0) Table wp_wpgmza_maps: finishing file(s) (2, 0.8 KB)
+0013.078 (0) Table wp_wpgmza_nominatim_geocode_cache: Total expected rows (via COUNT): 1
+0013.082 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0013.087 (0) Table wp_wpgmza_nominatim_geocode_cache: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=7016) in 0.01 seconds
+0013.099 (0) Table wp_wpgmza_nominatim_geocode_cache: finishing file(s) (2, 1.4 KB)
+0013.112 (0) Table wp_wpgmza_point_labels: Total expected rows (via COUNT): 0
+0013.120 (0) Table wp_wpgmza_point_labels: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=694) in 0.01 seconds
+0013.131 (0) Table wp_wpgmza_point_labels: finishing file(s) (2, 0.4 KB)
+0013.148 (0) Table wp_wpgmza_polygon: Total expected rows (via COUNT): 0
+0013.152 (0) Table wp_wpgmza_polygon: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=977) in 0.01 seconds
+0013.169 (0) Table wp_wpgmza_polygon: finishing file(s) (2, 0.4 KB)
+0013.186 (0) Table wp_wpgmza_polylines: Total expected rows (via COUNT): 0
+0013.191 (0) Table wp_wpgmza_polylines: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=675) in 0.01 seconds
+0013.207 (0) Table wp_wpgmza_polylines: finishing file(s) (2, 0.4 KB)
+0013.220 (0) Table wp_wpgmza_rectangles: Total expected rows (via COUNT): 0
+0013.224 (0) Table wp_wpgmza_rectangles: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1005) in 0.01 seconds
+0013.236 (0) Table wp_wpgmza_rectangles: finishing file(s) (2, 0.5 KB)
+0013.252 (0) Table wp_yoast_indexable: Total expected rows (via COUNT): 21
+0013.256 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0013.266 (0) Table wp_yoast_indexable: Rows added in this batch (next record: 21): 21 (uncompressed bytes in this segment=12929) in 0.02 seconds
+0013.282 (0) Table wp_yoast_indexable: finishing file(s) (2, 2.6 KB)
+0013.294 (0) Table wp_yoast_indexable_hierarchy: Total expected rows (approximate): 18
+0013.304 (0) Table wp_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 18 (uncompressed bytes in this segment=1078) in 0.01 seconds
+0013.316 (0) Table wp_yoast_indexable_hierarchy: finishing file(s) (2, 0.4 KB)
+0013.328 (0) Table wp_yoast_migrations: Total expected rows (via COUNT): 24
+0013.332 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0013.340 (0) Table wp_yoast_migrations: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=1234) in 0.01 seconds
+0013.352 (0) Table wp_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0013.364 (0) Table wp_yoast_primary_term: Total expected rows (via COUNT): 0
+0013.371 (0) Table wp_yoast_primary_term: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=829) in 0.01 seconds
+0013.383 (0) Table wp_yoast_primary_term: finishing file(s) (2, 0.4 KB)
+0013.393 (0) Table wp_yoast_seo_links: Total expected rows (via COUNT): 21
+0013.395 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0013.403 (0) Table wp_yoast_seo_links: Rows added in this batch (next record: 96): 21 (uncompressed bytes in this segment=4345) in 0.01 seconds
+0013.413 (0) Table wp_yoast_seo_links: finishing file(s) (2, 1.4 KB)
+0013.417 (0) PHP event: code E_WARNING: filemtime(): stat failed for /opt/lampp/htdocs/wp/wp-content/updraft/backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db.gz (line 1925, wp-content/plugins/updraftplus/backup.php)
+0013.421 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_options.table.tmpr51663.gz (1/41/fopen): adding to final database dump
+0013.439 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_options.table.gz (2/41/fopen): adding to final database dump
+0013.442 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_users.table.tmpr2.gz (3/41/fopen): adding to final database dump
+0013.446 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_users.table.gz (4/41/fopen): adding to final database dump
+0013.449 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_usermeta.table.tmpr32.gz (5/41/fopen): adding to final database dump
+0013.452 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_usermeta.table.gz (6/41/fopen): adding to final database dump
+0013.456 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_actionscheduler_actions.table.tmpr1738.gz (7/41/fopen): adding to final database dump
+0013.460 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_actionscheduler_actions.table.gz (8/41/fopen): adding to final database dump
+0013.464 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/41/fopen): adding to final database dump
+0013.467 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_actionscheduler_claims.table.gz (10/41/fopen): adding to final database dump
+0013.470 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_actionscheduler_groups.table.tmpr3.gz (11/41/fopen): adding to final database dump
+0013.474 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_actionscheduler_groups.table.gz (12/41/fopen): adding to final database dump
+0013.477 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_actionscheduler_logs.table.tmpr116.gz (13/41/fopen): adding to final database dump
+0013.481 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_actionscheduler_logs.table.gz (14/41/fopen): adding to final database dump
+0013.484 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_commentmeta.table.tmpr0.gz (15/41/fopen): adding to final database dump
+0013.488 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_commentmeta.table.gz (16/41/fopen): adding to final database dump
+0013.491 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_comments.table.tmpr2.gz (17/41/fopen): adding to final database dump
+0013.494 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_comments.table.gz (18/41/fopen): adding to final database dump
+0013.497 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_e_notes.table.tmpr0.gz (19/41/fopen): adding to final database dump
+0013.500 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_e_notes.table.gz (20/41/fopen): adding to final database dump
+0013.504 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_e_notes_users_relations.table.tmpr0.gz (21/41/fopen): adding to final database dump
+0013.507 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_e_notes_users_relations.table.gz (22/41/fopen): adding to final database dump
+0013.511 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_links.table.tmpr0.gz (23/41/fopen): adding to final database dump
+0013.513 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_links.table.gz (24/41/fopen): adding to final database dump
+0013.517 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_postmeta.table.tmpr18302.gz (25/41/fopen): adding to final database dump
+0013.623 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_postmeta.table.gz (26/41/fopen): adding to final database dump
+0013.626 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_posts.table.tmpr3258.gz (27/41/fopen): adding to final database dump
+0013.634 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_posts.table.gz (28/41/fopen): adding to final database dump
+0013.637 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_term_relationships.table.tmpr100001.gz (29/41/fopen): adding to final database dump
+0013.640 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_term_relationships.table.gz (30/41/fopen): adding to final database dump
+0013.642 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_term_taxonomy.table.tmpr28.gz (31/41/fopen): adding to final database dump
+0013.645 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_term_taxonomy.table.gz (32/41/fopen): adding to final database dump
+0013.647 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_termmeta.table.tmpr21.gz (33/41/fopen): adding to final database dump
+0013.649 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_termmeta.table.gz (34/41/fopen): adding to final database dump
+0013.651 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_terms.table.tmpr28.gz (35/41/fopen): adding to final database dump
+0013.653 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_terms.table.gz (36/41/fopen): adding to final database dump
+0013.656 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_e_events.table.tmpr3.gz (37/41/fopen): adding to final database dump
+0013.659 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_e_events.table.gz (38/41/fopen): adding to final database dump
+0013.662 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_e_submissions.table.tmpr3.gz (39/41/fopen): adding to final database dump
+0013.665 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_e_submissions.table.gz (40/41/fopen): adding to final database dump
+0013.668 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_e_submissions_actions_log.table.tmpr3.gz (41/41/fopen): adding to final database dump
+0013.671 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_e_submissions_actions_log.table.gz (42/41/fopen): adding to final database dump
+0013.674 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_e_submissions_values.table.tmpr11.gz (43/41/fopen): adding to final database dump
+0013.677 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_e_submissions_values.table.gz (44/41/fopen): adding to final database dump
+0013.680 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_wpforms_logs.table.tmpr0.gz (45/41/fopen): adding to final database dump
+0013.683 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_wpforms_logs.table.gz (46/41/fopen): adding to final database dump
+0013.685 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_wpforms_payment_meta.table.tmpr0.gz (47/41/fopen): adding to final database dump
+0013.689 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_wpforms_payment_meta.table.gz (48/41/fopen): adding to final database dump
+0013.692 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_wpforms_payments.table.tmpr0.gz (49/41/fopen): adding to final database dump
+0013.695 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_wpforms_payments.table.gz (50/41/fopen): adding to final database dump
+0013.698 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_wpforms_tasks_meta.table.tmpr2.gz (51/41/fopen): adding to final database dump
+0013.701 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_wpforms_tasks_meta.table.gz (52/41/fopen): adding to final database dump
+0013.704 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_wpgmza.table.tmpr3.gz (53/41/fopen): adding to final database dump
+0013.707 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_wpgmza.table.gz (54/41/fopen): adding to final database dump
+0013.709 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_wpgmza_admin_notices.table.tmpr0.gz (55/41/fopen): adding to final database dump
+0013.712 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_wpgmza_admin_notices.table.gz (56/41/fopen): adding to final database dump
+0013.715 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_wpgmza_circles.table.tmpr0.gz (57/41/fopen): adding to final database dump
+0013.720 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_wpgmza_circles.table.gz (58/41/fopen): adding to final database dump
+0013.723 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_wpgmza_image_overlays.table.tmpr0.gz (59/41/fopen): adding to final database dump
+0013.726 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_wpgmza_image_overlays.table.gz (60/41/fopen): adding to final database dump
+0013.729 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_wpgmza_maps.table.tmpr2.gz (61/41/fopen): adding to final database dump
+0013.732 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_wpgmza_maps.table.gz (62/41/fopen): adding to final database dump
+0013.735 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_wpgmza_nominatim_geocode_cache.table.tmpr2.gz (63/41/fopen): adding to final database dump
+0013.738 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_wpgmza_nominatim_geocode_cache.table.gz (64/41/fopen): adding to final database dump
+0013.741 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_wpgmza_point_labels.table.tmpr0.gz (65/41/fopen): adding to final database dump
+0013.744 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_wpgmza_point_labels.table.gz (66/41/fopen): adding to final database dump
+0013.748 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_wpgmza_polygon.table.tmpr0.gz (67/41/fopen): adding to final database dump
+0013.751 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_wpgmza_polygon.table.gz (68/41/fopen): adding to final database dump
+0013.754 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_wpgmza_polylines.table.tmpr0.gz (69/41/fopen): adding to final database dump
+0013.757 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_wpgmza_polylines.table.gz (70/41/fopen): adding to final database dump
+0013.760 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_wpgmza_rectangles.table.tmpr0.gz (71/41/fopen): adding to final database dump
+0013.763 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_wpgmza_rectangles.table.gz (72/41/fopen): adding to final database dump
+0013.766 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_yoast_indexable.table.tmpr22.gz (73/41/fopen): adding to final database dump
+0013.769 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_yoast_indexable.table.gz (74/41/fopen): adding to final database dump
+0013.772 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_yoast_indexable_hierarchy.table.tmpr1001.gz (75/41/fopen): adding to final database dump
+0013.776 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_yoast_indexable_hierarchy.table.gz (76/41/fopen): adding to final database dump
+0013.780 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_yoast_migrations.table.tmpr25.gz (77/41/fopen): adding to final database dump
+0013.784 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_yoast_migrations.table.gz (78/41/fopen): adding to final database dump
+0013.788 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_yoast_primary_term.table.tmpr0.gz (79/41/fopen): adding to final database dump
+0013.791 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_yoast_primary_term.table.gz (80/41/fopen): adding to final database dump
+0013.795 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_yoast_seo_links.table.tmpr97.gz (81/41/fopen): adding to final database dump
+0013.797 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db-table-wp_yoast_seo_links.table.gz (82/41/fopen): adding to final database dump
+0013.803 (0) An error occurred while attempting to retrieve routine status (Column count of mysql.proc is wrong. Expected 21, found 20. Created with MariaDB 100108, now running 100428. Please use mysql_upgrade to fix this error - SHOW FUNCTION STATUS WHERE DB = 'wp')
+0013.806 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db.gz: finished writing out complete database file (11931.6 KB)
+0013.957 (0) Total database tables backed up: 41 (backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db.gz, size: 12218056, sha1: 9142f3e4c855a72cae7bb27c0f7c2c57215096fe, sha256: 67ce0f99817a486177ea46a4aaf904f97fb00c59ac386ab93e14af0fda54d66a)
+0013.971 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-plugins.zip: plugins: This file has already been successfully uploaded
+0013.973 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-themes.zip: themes: This file has already been successfully uploaded
+0013.976 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-uploads.zip: uploads: This file has already been successfully uploaded
+0013.979 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-others.zip: others: This file has already been successfully uploaded
+0013.981 (0) backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db.gz: db: This file has not yet been successfully uploaded: will queue
+0013.984 (0) Saving backup history. Total backup size: 95.5 MB
+0013.990 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0013.999 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0014.001 (0) No remote despatch: user chose no remote backup service
+0014.004 (0) Recording as successfully uploaded: backup_2024-06-15-1444_Psicologo_Gestalt_Corua_6b0c30ac10d5-db.gz
+0014.011 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0014.014 (0) Number of backup sets in history: 2; groups (db): 1
+0014.016 (0) Examining (for databases) backup set with group_id=0, nonce=6b0c30ac10d5, datestamp=1718462654 (Jun 15 2024 14:44:14)
+0014.019 (0) This backup set is the backup set just made, so will not be deleted.
+0014.019 (0) Examining (for databases) backup set with group_id=0, nonce=da72e20a46ed, datestamp=1718135667 (Jun 11 2024 19:54:27)
+0014.019 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0014.034 (0) Number of backup sets in history: 2; groups (files): 1
+0014.043 (0) Examining (for files) backup set with nonce=6b0c30ac10d5, datestamp=1718462654 (Jun 15 2024 14:44:14)
+0014.043 (0) This backup set is the backup set just made, so will not be deleted.
+0014.050 (0) This backup set is the backup set just made, so will not be deleted.
+0014.050 (0) This backup set is the backup set just made, so will not be deleted.
+0014.051 (0) This backup set is the backup set just made, so will not be deleted.
+0014.051 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0014.055 (0) Examining (for files) backup set with nonce=da72e20a46ed, datestamp=1718135667 (Jun 11 2024 19:54:27)
+0014.055 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0014.055 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0014.062 (0) Resume backup (6b0c30ac10d5, 0): finish run
+0014.072 (0) Decremented the semaphore (fd) by 1
+0014.078 (0) Semaphore (fd) unlocked
+0014.082 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0014.094 (0) No email will/can be sent - the user has not configured an email address.
+0014.098 (0) The backup succeeded and is now complete
